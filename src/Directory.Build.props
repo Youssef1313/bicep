@@ -23,6 +23,7 @@
 
   <PropertyGroup Label="Testing">
     <MSTestVersion>3.7.3</MSTestVersion>
+    <MicrosoftTestingPlatformVersion>1.5.3</MicrosoftTestingPlatformVersion>
     <EnableMSTestRunner>true</EnableMSTestRunner>
 
     <!-- More info about dotnet test integration https://learn.microsoft.com/dotnet/core/testing/unit-testing-platform-integration-dotnet-test -->

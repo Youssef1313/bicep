@@ -31,6 +31,7 @@
 		<PackageReference Include="Microsoft.VisualStudio.Shell.Framework" Version="17.12.40391" />
 		<PackageReference Include="Microsoft.VisualStudio.Utilities" Version="17.12.40391" />
 		<PackageReference Include="MSTest" Version="$(MSTestVersion)" />
+    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="$(MicrosoftTestingPlatformVersion)" />
 	</ItemGroup>
 
 	<ItemGroup>
