@@ -2,12 +2,6 @@
   "version": 1,
   "dependencies": {
     "net8.0": {
-      "coverlet.collector": {
-        "type": "Direct",
-        "requested": "[6.0.3, )",
-        "resolved": "6.0.3",
-        "contentHash": "SvLbRq7gjzE34BI90vP6ge812+PAjinNoKhdFZHwVEu/ozJgZY+0KyDh1K0teDeMeuzQJuF8OvleRBYXsZDz0A=="
-      },
       "DiffPlex": {
         "type": "Direct",
         "requested": "[1.7.2, )",
@@ -46,6 +40,16 @@
         "dependencies": {
           "Microsoft.Build.Tasks.Git": "8.0.0",
           "Microsoft.SourceLink.Common": "8.0.0"
+        }
+      },
+      "Microsoft.Testing.Extensions.TrxReport": {
+        "type": "Direct",
+        "requested": "[1.5.3, )",
+        "resolved": "1.5.3",
+        "contentHash": "EWngdkVPKRslrXTFGQ53RbJDb/Si6/Ma+NkWu3Ck8ioiWF7ASsNgCxpXV0IfgGKuFZysEqWD06Z6nInoNtynqg==",
+        "dependencies": {
+          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.5.3",
+          "Microsoft.Testing.Platform": "1.5.3"
         }
       },
       "Microsoft.VisualStudio.Threading.Analyzers": {

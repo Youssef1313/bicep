@@ -59,6 +59,16 @@
           "MSTest.TestFramework": "3.0.3"
         }
       },
+      "Microsoft.Testing.Extensions.TrxReport": {
+        "type": "Direct",
+        "requested": "[1.5.3, )",
+        "resolved": "1.5.3",
+        "contentHash": "EWngdkVPKRslrXTFGQ53RbJDb/Si6/Ma+NkWu3Ck8ioiWF7ASsNgCxpXV0IfgGKuFZysEqWD06Z6nInoNtynqg==",
+        "dependencies": {
+          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.5.3",
+          "Microsoft.Testing.Platform": "1.5.3"
+        }
+      },
       "Microsoft.VisualStudio.Composition": {
         "type": "Direct",
         "requested": "[17.12.18, )",

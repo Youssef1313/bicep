@@ -2,12 +2,6 @@
   "version": 1,
   "dependencies": {
     "net8.0": {
-      "coverlet.collector": {
-        "type": "Direct",
-        "requested": "[6.0.3, )",
-        "resolved": "6.0.3",
-        "contentHash": "SvLbRq7gjzE34BI90vP6ge812+PAjinNoKhdFZHwVEu/ozJgZY+0KyDh1K0teDeMeuzQJuF8OvleRBYXsZDz0A=="
-      },
       "FluentAssertions": {
         "type": "Direct",
         "requested": "[7.0.0, )",
@@ -31,6 +25,16 @@
         "dependencies": {
           "Microsoft.Build.Tasks.Git": "8.0.0",
           "Microsoft.SourceLink.Common": "8.0.0"
+        }
+      },
+      "Microsoft.Testing.Extensions.TrxReport": {
+        "type": "Direct",
+        "requested": "[1.5.3, )",
+        "resolved": "1.5.3",
+        "contentHash": "EWngdkVPKRslrXTFGQ53RbJDb/Si6/Ma+NkWu3Ck8ioiWF7ASsNgCxpXV0IfgGKuFZysEqWD06Z6nInoNtynqg==",
+        "dependencies": {
+          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.5.3",
+          "Microsoft.Testing.Platform": "1.5.3"
         }
       },
       "Microsoft.VisualStudio.Threading": {
@@ -1590,7 +1594,8 @@
           "Azure.Bicep.Core": "[1.0.0, )",
           "Bicep.Core.UnitTests": "[1.0.0, )",
           "FluentAssertions": "[7.0.0, )",
-          "MSTest": "[3.7.3, )"
+          "MSTest": "[3.7.3, )",
+          "Microsoft.Testing.Extensions.TrxReport": "[1.5.3, )"
         }
       },
       "bicep.core.unittests": {
@@ -1602,6 +1607,7 @@
           "FluentAssertions": "[7.0.0, )",
           "JsonDiffPatch.Net": "[2.3.0, )",
           "MSTest": "[3.7.3, )",
+          "Microsoft.Testing.Extensions.TrxReport": "[1.5.3, )",
           "Moq": "[4.20.72, )",
           "Newtonsoft.Json.Schema": "[4.0.1, )",
           "RichardSzalay.MockHttp": "[7.0.0, )",
