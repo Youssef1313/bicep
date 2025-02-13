@@ -17,7 +17,6 @@
   <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="7.0.0" />
     <PackageReference Include="MSTest" Version="$(MSTestVersion)" />
-    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="$(MicrosoftTestingPlatformVersion)" />
   </ItemGroup>
 
   <ItemGroup>
