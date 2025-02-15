@@ -305,6 +305,7 @@ jobs:
         run: msbuild src/vs-bicep/BicepInVisualStudio.sln /restore /p:Configuration=Release /v:m /bl:./src/binlog/bicep_in_visual_studio_build.binlog
 
       - name: Upload BicepInVisualStudio.sln build binlog
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: build-binlog-files
