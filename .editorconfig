@@ -34,8 +34,10 @@ dotnet_diagnostic.IDE0005.severity = suggestion
 
 # Require file header
 dotnet_diagnostic.IDE0073.severity = warning
+
 # 'using' directive placement
 dotnet_diagnostic.IDE0065.severity = warning
+
 # Add braces
 dotnet_diagnostic.IDE0011.severity = warning
 
